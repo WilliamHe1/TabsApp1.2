@@ -23,8 +23,21 @@
         <p>This is the content of Tab 1.</p>
     </div>
     <div class="content" id="content-1">
-        <h2>Tab 2 Content</h2>
-        <p>This is the content of Tab 2.</p>
+        <h2>Choices</h2>
+        <p>Hat color to place on Player One's head:</p>
+        <input type="radio" name="Player1" value="Red" id="Red" checked>
+        <label for="Red">Red</label>
+        <input type="radio" name="Player1" value="Blue" id="Blue">
+        <label for="Blue">Blue</label>
+        <p>Hat color to place on Player Two's head:</p>
+        <select name="Player2" id="Player2"> 
+            <option value="Red">Red</option> 
+            <option value="Blue">Blue</option> 
+        </select>
+        <br><br>
+        <button id = "choicesTabButton" onclick="performGuess()">Have Computer Players Make Guesses Exactly One Will be Correct</button>
+        <br><br>
+        <div id = "tab2Result"></div>
     </div>
     <div class="content" id="content-2">
         <div class="todo-list">

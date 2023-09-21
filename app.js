@@ -70,5 +70,21 @@ function showTab(tabIndex) {
         taskList.removeChild(taskItem);
     }
 
+    function performGuess() {
+        const div = document.getElementById("tab2Result");
+        const radioButtons = document.querySelectorAll('input[name="Player1"]');
+        let answer;
+
+        for (const radioButton of radioButtons){
+            if (radioButton.checked){
+
+                answer = radioButton.value;
+                break;
+            }
+        }
+        div.innerHTML = `The computer guesses that player 1 is wearing a ${answer} 
+        Hat while player 2 is wearing an Orange Hat.`
+    }
+
 // Show the initial tab (Start by showing tab 1.)
 showTab(0);

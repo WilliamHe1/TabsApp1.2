@@ -34,6 +34,11 @@ body {
 }
 /*Styles for tabs end here.*/
 
+/*Style rules for tab 2 start here */
+#choicesTabButton {
+    max-width: 300px;
+}
+
 /*Style rules for tab 3 (ToDo Tab) */
 li:nth-child(odd) { background: white; }
 li:nth-child(even) { background: rgb(200, 200, 200); }
@@ -47,10 +52,6 @@ li:nth-child(even) { background: rgb(200, 200, 200); }
     display: flex;
     align-items: center;
     padding: 10px;
-}
-
-.task input[type="checkbox"] {
-    margin-right: 10px;
 }
 
 .task label {
