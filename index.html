@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabs 1.2</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script> 
+    
+</head>
+<body>
+    <div id="tabs">
+        <div id = "tab-0" class="tab" onclick="showTab(0)">Tab 1</div>
+        <div id = "tab-1" class="tab" onclick="showTab(1)">Choices</div>
+        <div id = "tab-2" class="tab" onclick="showTab(2)">To Do</div>
+        <div id = "tab-3" class="tab" onclick="showTab(3)">Tab 4</div>
+        <div id = "tab-4" class="tab" onclick="showTab(4)">Tab 5</div>
+        <div id = "tab-5" class="tab" onclick="showTab(5)">Tab 6</div>
+    </div>
+
+    <div class="content" id="content-0">
+        <h2>Tab 1 Content</h2>
+        <p>This is the content of Tab 1.</p>
+    </div>
+    <div class="content" id="content-1">
+        <h2>Tab 2 Content</h2>
+        <p>This is the content of Tab 2.</p>
+    </div>
+    <div class="content" id="content-2">
+        <div class="todo-list">
+            <h1>To-Do List</h1>
+            <div class="add-task">
+                <input type="text" id="taskInput" placeholder="Add a new task">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <div id="taskList"></div>
+        </div>
+    </div>
+    <div class="content" id="content-3">
+        <h2>Tab 4 Content</h2>
+        <p>This is the content of Tab 4.</p>
+    </div>
+    <div class="content" id="content-4">
+        <h2>Tab 5 Content</h2>
+        <p>This is the content of Tab 5.</p>
+    </div>
+    <div class="content" id="content-5">
+        <h2>Tab 6 Content</h2>
+        <p>This is the content of Tab 6.</p>
+    </div>
+</body>
+</html>
