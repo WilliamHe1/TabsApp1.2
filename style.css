@@ -109,6 +109,34 @@ li:nth-child(even) { background: rgb(200, 200, 200); }
 
 /*Style rules for tab 3 (ToDo Tab) ENDS*/ 
 
+/*Style rules for tab 5 (Colors Tab) STARTS*/
+
+/*#content-4 {
+    background-color: pink;
+}*/
+
+
+.tab_5 {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.tab_5_hello {
+    color: yellow;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+.tab_5_hi {
+    color: purple;
+    padding: 0;
+    margin: 0;
+    background-color: yellow;
+}
+
+/*Style rules for tab 5 (Colors Tab) ENDS*/
+
 /* Style rules for tab 6 (Lower Right Tab) */
 
 .additional-text {
