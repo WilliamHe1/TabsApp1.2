@@ -82,9 +82,6 @@ function showTab(tabIndex) {
                 break;
             }
         }
-        div.innerHTML = `The computer guesses that player 1 is wearing a ${answer} 
-        Hat while player 2 is wearing an Orange Hat.`
+        div.innerHTML = `Player 2 guesses Player 1 is wearing a ${answer} 
+        Hat while Player 1 guesses that Player 2 is wearing an Orange Hat.`
     }
-
-// Show the initial tab (Start by showing tab 1.)
-showTab(0);

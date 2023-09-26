@@ -1,20 +1,24 @@
 /*Styles for tabs start here.*/
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(224, 224, 224);
     overflow: hidden;
+}
+p {
+    max-width: 400px;
 }
 
 #tabs {
     display: flex;
-    justify-content: center;
+    /*justify-content: center; */
     background-color: #333;
     padding: 10px;
+    padding-bottom: 0px;
 }
 
 .tab {
     cursor: pointer;
-    padding: 10px 20px;
+    padding: 20px;
     color: white;
     background-color: gray;
 }
@@ -29,6 +33,7 @@ body {
     padding: 20px;
     max-height: calc(100vh - 100px); /* Set the maximum height to 100% of viewport height */
     overflow-y: scroll; /* Enable vertical scrolling */
+    width: 120%;
 }
 
 .active {
@@ -47,7 +52,7 @@ li:nth-child(even) { background: rgb(200, 200, 200); }
 
 .todo-list {
     max-width: 300px;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
 }
 
 .task {
