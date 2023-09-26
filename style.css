@@ -32,15 +32,13 @@ p {
 .content {
     display: none;
     max-height: calc(100vh - 100px); /* Set the maximum height to 100% of viewport height */
+    margin-left: 10px;
     width: 100%
+    
 
 }
 #content-0 {
     overflow-y: scroll; /* Enable vertical scrolling */
-}
-
-#content-0 {
-    width: 100%
 }
 
 .active {
@@ -69,6 +67,7 @@ li:nth-child(even) { background: rgb(200, 200, 200); }
     display: flex;
     align-items: center;
     padding: 10px;
+    margin-right: 10px;
 }
 
 .task label {
