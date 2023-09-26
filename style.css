@@ -13,6 +13,7 @@ p {
     /*justify-content: center; */
     background-color: #333;
     padding: 10px;
+    padding-left: 0px;
     padding-bottom: 0px;
 }
 
@@ -30,10 +31,14 @@ p {
 
 .content {
     display: none;
-    padding: 20px;
     max-height: calc(100vh - 100px); /* Set the maximum height to 100% of viewport height */
     overflow-y: scroll; /* Enable vertical scrolling */
-    width: 120%;
+    width: 120%
+
+}
+
+#content-0 {
+    width: 100%
 }
 
 .active {
@@ -76,7 +81,9 @@ li:nth-child(even) { background: rgb(200, 200, 200); }
 .task.done .delete-button {
     color:white
 }
-
+#taskList {
+    max-width: 86%;
+}
 .task.done {
     background-color: rgb(61, 61, 61) !important;
     color:white
@@ -111,23 +118,26 @@ li:nth-child(even) { background: rgb(200, 200, 200); }
 
 /*Style rules for tab 4 (Colors Tab) STARTS*/
 #profile-img{
-    width: 30%;
-    margin-left: 40%;
+    width: 250px;
+}
+
+#profile-section{
+    margin-left: 170px;
 }
 
 #paragraph_space{
-    margin-left: 43%;
-    font-family: 'Times New Roman', Times, serif;
+    margin-left: 67px;
 }
 
 .error-message {
     color: rgb(255, 255, 255);
     display: none;
-    padding: 1px;
+    padding: 25px;
     background-color: rgba(245, 1, 1, 0.5);
     border: 1px solid #f5c6cb;
     position: relative;
     font-size: 1.5rem;
+    margin-right: 10px;
 }
 
 .close-error {
@@ -140,10 +150,6 @@ li:nth-child(even) { background: rgb(200, 200, 200); }
 #smile{
     margin-left: 43%;
     font-family: 'Times New Roman', Times, serif;
-}
-
-#content-3{
-    background-color: antiquewhite;
 }
 
 /*Style rules for tab 4 (Colors Tab) Ends*/
@@ -165,6 +171,7 @@ li:nth-child(even) { background: rgb(200, 200, 200); }
     padding: 0;
     margin: 0;
     background-color: black;
+    max-width: 90%;
 }
 
 .tab_5_hi {
@@ -172,6 +179,7 @@ li:nth-child(even) { background: rgb(200, 200, 200); }
     padding: 0;
     margin: 0;
     background-color: yellow;
+    max-width: 90%;
 }
 
 /*Style rules for tab 5 (Colors Tab) ENDS*/
@@ -181,7 +189,7 @@ li:nth-child(even) { background: rgb(200, 200, 200); }
 .additional-text {
     position: absolute; /* Positioning the text absolutely within the tab */
     bottom: 20px; /* Adjust the distance from the bottom as needed */
-    right: 30px; /* Adjust the distance from the right as needed */
+    right: 20px; /* Adjust the distance from the right as needed */
     font-size: 16px; /* Adjust the font size as needed */
 }
 

@@ -82,13 +82,8 @@ function showTab(tabIndex) {
                 break;
             }
         }
-<<<<<<< HEAD
         div.innerHTML = `Player 2 guesses Player 1 is wearing a ${answer} 
         Hat while Player 1 guesses that Player 2 is wearing an Orange Hat.`
-    }
-=======
-        div.innerHTML = `The computer guesses that player 1 is wearing a ${answer} 
-        Hat while player 2 is wearing an Orange Hat.`
     }
 
     //start tab-4
@@ -108,5 +103,3 @@ function closeError() {
 //end tab-4
 
 // Show the initial tab (Start by showing tab 1.)
-showTab(0);
->>>>>>> cf43bf02625494795c0a6bb01c25bcf2835f2e21
