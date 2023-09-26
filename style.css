@@ -2,6 +2,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: rgb(240, 240, 240);
+    overflow: hidden;
 }
 
 #tabs {
@@ -23,10 +24,11 @@ body {
     background-color:  rgb(200, 200, 200) !important;
 }
 
-
 .content {
     display: none;
     padding: 20px;
+    max-height: calc(100vh - 100px); /* Set the maximum height to 100% of viewport height */
+    overflow-y: scroll; /* Enable vertical scrolling */
 }
 
 .active {
@@ -100,4 +102,15 @@ li:nth-child(even) { background: rgb(200, 200, 200); }
     margin-right: 10px;
 }
 
-/*Style rules for tab 3 (ToDo Tab) ENDS*/
+/*Style rules for tab 3 (ToDo Tab) ENDS*/ 
+
+/* Style rules for tab 6 (Lower Right Tab) */
+
+.additional-text {
+    position: absolute; /* Positioning the text absolutely within the tab */
+    bottom: 20px; /* Adjust the distance from the bottom as needed */
+    right: 30px; /* Adjust the distance from the right as needed */
+    font-size: 16px; /* Adjust the font size as needed */
+}
+
+/* Style rules for tab 6 (Lower Right Tab) ENDS */
