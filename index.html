@@ -13,7 +13,7 @@
         <div id = "tab-0" class="tab" onclick="showTab(0)">Text</div>
         <div id = "tab-1" class="tab" onclick="showTab(1)">Choices</div>
         <div id = "tab-2" class="tab" onclick="showTab(2)">To Do</div>
-        <div id = "tab-3" class="tab" onclick="showTab(3)">Tab 4</div>
+        <div id = "tab-3" class="tab" onclick="showTab(3)">Profile</div>
         <div id = "tab-4" class="tab" onclick="showTab(4)">Colors</div>
         <div id = "tab-5" class="tab" onclick="showTab(5)">Lower Right</div>
     </div>
@@ -69,8 +69,14 @@
     </div>
 
     <div class="content" id="content-3">
-        <h2>Tab 4 Content</h2>
-        <p>This is the content of Tab 4.</p>
+        <div id="profile-tab">
+            <img id="profile-img" src="sm.png" alt="Profile Picture" />
+            <p id="paragraph_space"><b>Smiley J. Smile</b></p>
+            <div id="error-message" class="error-message">
+                <span id="error-text"><strong>Warning!</strong> Do not click on the profile picture.</span>
+                <span id="close-error" class="close-error">&times;</span> <!-- Close Button -->
+            </div>
+        </div>
     </div>
 
 

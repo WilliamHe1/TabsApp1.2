@@ -86,5 +86,21 @@ function showTab(tabIndex) {
         Hat while player 2 is wearing an Orange Hat.`
     }
 
+    //start tab-4
+
+document.getElementById('profile-img').addEventListener('click', showError);
+document.getElementById('close-error').addEventListener('click', closeError);
+
+function showError() {
+    const errorMessageElement = document.getElementById("error-message");
+    errorMessageElement.style.display = 'block';
+}
+
+function closeError() {
+    const errorMessageElement = document.getElementById("error-message");
+    errorMessageElement.style.display = 'none';
+}
+//end tab-4
+
 // Show the initial tab (Start by showing tab 1.)
 showTab(0);
