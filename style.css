@@ -109,6 +109,45 @@ li:nth-child(even) { background: rgb(200, 200, 200); }
 
 /*Style rules for tab 3 (ToDo Tab) ENDS*/ 
 
+/*Style rules for tab 4 (Colors Tab) STARTS*/
+#profile-img{
+    width: 30%;
+    margin-left: 40%;
+}
+
+#paragraph_space{
+    margin-left: 43%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.error-message {
+    color: rgb(255, 255, 255);
+    display: none;
+    padding: 1px;
+    background-color: rgba(245, 1, 1, 0.5);
+    border: 1px solid #f5c6cb;
+    position: relative;
+    font-size: 1.5rem;
+}
+
+.close-error {
+    cursor: pointer;
+    margin-left: 10%;
+    font-size: 50px;
+    vertical-align: middle;
+}
+
+#smile{
+    margin-left: 43%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#content-3{
+    background-color: antiquewhite;
+}
+
+/*Style rules for tab 4 (Colors Tab) Ends*/
+
 /*Style rules for tab 5 (Colors Tab) STARTS*/
 
 /*#content-4 {
